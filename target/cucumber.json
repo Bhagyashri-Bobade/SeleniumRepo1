@@ -1,0 +1,195 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-02-09T18:50:24.220Z",
+        "before": [
+          {
+            "result": {
+              "duration": 33897000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.setenv()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Check login is successfull with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successfull-with-valid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1699000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5469000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1501000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Raghav and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Raghav",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 23
+                }
+              ],
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 257000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 245000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-09T18:51:07.716Z",
+        "before": [
+          {
+            "result": {
+              "duration": 9826000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.setenv()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Check login is successfull with valid credentials",
+        "description": "",
+        "id": "feature-to-test-login-functionality;check-login-is-successfull-with-valid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1024000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3459000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 312000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters Ele and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ele",
+                  "offset": 12
+                },
+                {
+                  "val": "12345",
+                  "offset": 20
+                }
+              ],
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "clicks on login button",
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "com.cg.selenium.cucumber.stepdefinitions.LoginStepDefinitions.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to test login functionality",
+    "description": "",
+    "id": "feature-to-test-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
