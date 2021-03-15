@@ -25,7 +25,7 @@ public class LoginStepDefinitions {
 	@Before
 	public void setenv()
 	{
-		System.out.println("inside setenv method");
+		System.out.println("inside setenv meth");
 		System.setProperty("webdriver.chrome.driver","C:\\Softwares\\ChromeDriver\\chromedriver.exe"); 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -77,6 +77,7 @@ public class LoginStepDefinitions {
 	public void user_is_navigated_to_home_page() {
 	   homePage = new HomePage(driver);
 	   homePage.logout();
+	   System.out.println("logout");
 	}
 
 	
